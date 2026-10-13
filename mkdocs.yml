@@ -1,0 +1,25 @@
+site_name: Linux for Mere Mortals
+site_description: Plain-language Linux guides — no CS degree required.
+site_url: https://paulsullivan33-dev.github.io/linux-for-mere-mortals/
+
+# Guides live at the repo root (nice for GitHub browsing).
+# The deploy workflow copies them into docs/ before building.
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - What Linux Is: what-linux-is.md
+  - Installing Linux (safely): installing-linux.md
+  - The Terminal: the-terminal.md
+  - Files and Directories: files-and-directories.md
+  - Working with Files: working-with-files.md
+  - Permissions: permissions.md
+  - Finding Things: finding-things.md
+  - Processes: processes.md
+  - Installing Software: installing-software.md
+  - Remote Machines: remote-machines.md
+  - Disks and Services: disks-and-services.md
+  - Troubleshooting: troubleshooting.md
+  - Glossary: glossary.md
+  - Writing Criteria: criteria.md
